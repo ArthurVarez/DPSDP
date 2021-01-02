@@ -1,0 +1,5 @@
+/Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.csprojAssemblyReference.cache
+/Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.AssemblyInfoInputs.cache
+/Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.AssemblyInfo.cs
+/Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.csproj.CoreCompileInputs.cache
