@@ -16,6 +16,17 @@ namespace FinalProject
             this.index = 0;
         }
 
+        public void PlayDice()
+        {
+            Die die1 = new Die();
+            Die die2 = new Die();
+            this.index += die1.DieValue + die2.DieValue;
+            if (this.index > 39)
+            {
+                this.index = this.index - 40;
+            }
+
+        }
 
     }
 }

@@ -3,3 +3,18 @@
 /Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.AssemblyInfoInputs.cache
 /Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.AssemblyInfo.cs
 /Users/Arthur/Desktop/Projets/ProjetDp/FinalProject/obj/Debug/net5.0/FinalProject.csproj.CoreCompileInputs.cache
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/bin/Debug/net5.0/FinalProject.deps.json
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/bin/Debug/net5.0/FinalProject.runtimeconfig.json
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/bin/Debug/net5.0/FinalProject.runtimeconfig.dev.json
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/bin/Debug/net5.0/FinalProject.dll
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/bin/Debug/net5.0/ref/FinalProject.dll
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/bin/Debug/net5.0/FinalProject.pdb
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.csprojAssemblyReference.cache
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.AssemblyInfoInputs.cache
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.AssemblyInfo.cs
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.csproj.CoreCompileInputs.cache
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.dll
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/ref/FinalProject.dll
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.pdb
+/Users/clement/Documents/Année 4/Design Pattern/DPSDP/FinalProject/obj/Debug/net5.0/FinalProject.genruntimeconfig.cache
