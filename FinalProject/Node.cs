@@ -21,6 +21,6 @@ namespace FinalProject
 		{
 			return data.GetHashCode();
 		}
-	}
+    }
 
 }

@@ -1,25 +1,15 @@
 ﻿<Properties StartupConfiguration="{1E9567E9-EAC4-4F9C-ABB0-F9609F3F6AB0}|Default">
   <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="JailState.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../TD4/TD4 - Ex2 - Solution.cs">
     <Files>
-      <File FileName="Node.cs" Line="26" Column="2" />
-      <File FileName="CustomQueue.cs" Line="4" Column="14" />
-      <File FileName="Game.cs" Line="48" Column="35" />
-      <File FileName="Player.cs" Line="29" Column="1" />
-      <File FileName="CircularList.cs" Line="85" Column="1" />
-      <File FileName="Program.cs" Line="20" Column="48" />
-      <File FileName="Board.cs" Line="8" Column="26" />
-      <File FileName="Die.cs" Line="15" Column="10" />
-      <File FileName="State.cs" Line="4" Column="12" />
-      <File FileName="InJail.cs" Line="18" Column="1" />
-      <File FileName="FreeState.cs" Line="1" Column="1" />
+      <File FileName="../../TD4/TD4 - Ex2 - Solution.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="FinalProject" expanded="True">
-              <Node name="JailState.cs" selected="True" />
+              <Node name="FreeState.cs" selected="True" />
             </Node>
           </Node>
         </State>

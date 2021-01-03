@@ -15,7 +15,6 @@ namespace FinalProject
         {
             this.playerList = new List<Player>();
             SetBoard();
-            this.dice = new Die[] { new Die(),new Die() }; 
         }
 
         public void SetBoard()
@@ -46,8 +45,7 @@ namespace FinalProject
         {
             foreach (Player player in this.playerList)
             {
-                this.dice.dice
-                player.Index=;
+                player.PlayDice();
             }
         }
 

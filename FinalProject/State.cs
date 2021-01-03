@@ -1,10 +1,8 @@
 ﻿using System;
 namespace FinalProject
 {
-    public class State
+    public abstract class State
     {
-        public State()
-        {
-        }
+        public abstract void Play(Player player);
     }
 }

@@ -5,7 +5,6 @@ namespace FinalProject
 
     public class CircularList<T>
     {
-        public T value { get; set; }
         public Node<T> root { get; set; }
         public Node<T> tail { get; set; }
         public int sizeofList;
@@ -13,8 +12,10 @@ namespace FinalProject
 
         public CircularList()
         {
+            this.sizeofList = 0;
         }
-        public CircularList(T value)
+
+        /*public CircularList(T value)
         {
             this.value = value;
             this.root = new Node<T>(value);
@@ -26,6 +27,7 @@ namespace FinalProject
 
 
         }
+        */
         public void AddNode(Node<T> node)
         {
             Node<T> new_node = new Node<T>(node.data);
@@ -63,12 +65,23 @@ namespace FinalProject
                 temp = temp.next;
 
             }
-
         }
 
 
-        //Test
+        public void TraverseCircularLL()
+        {
+            if (this.root == null) return;
+            Node<T> tempNode = this.root;
+            for (int i = 0; i < sizeofList; i++)
+            {
+                Console.Write(tempNode.data);
+                if (i != sizeofList - 1)
+                    Console.Write("-->");
+                tempNode = tempNode.next;
+            }
+            Console.WriteLine("\n");
 
+        }
 
     }
 }
