@@ -3,11 +3,12 @@ namespace FinalProject
 {
     public class FreeState:State
     {
-        private State state;
+        private Player player;
 
-        public FreeState(State state)
+        public FreeState(Player player)
         {
-            this.state = state;
+            this.player = player;
+            this.player.Test = "Free";
         }
         public override void Play(Player player)
         {
@@ -16,7 +17,7 @@ namespace FinalProject
             player.Index += die1.DieValue + die2.DieValue;
             if (player.Index == 30)
             {
-                //this.state = JailState;
+                this.player.State = new JailState(this.player);
             }
             else if (player.Index > 39)
             {

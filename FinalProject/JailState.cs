@@ -4,12 +4,14 @@ namespace FinalProject
     public class JailState: State
     {
         private int round;
-        private State state;
+        private Player player;
 
-        public JailState(State state)
+        public JailState(Player player)
         {
             this.round = 0;
-            this.state = state;
+            this.player = player;
+            this.player.WhatsMyState = "In Jail";
+
         }
 
         public override void Play(Player player)
@@ -17,7 +19,7 @@ namespace FinalProject
             player.Index = 30;
             if (TryToBeFree(player))
             {
-                //this.state = FreeState();
+                this.player.State = new FreeState(this.player);
             }
 
         }
@@ -31,8 +33,9 @@ namespace FinalProject
                 if (player.Index > 39)
                 {
                     player.Index = player.Index - 40;
-                    return true;
                 }
+                return true;
+
             }
             else
             {
@@ -43,8 +46,8 @@ namespace FinalProject
                     if (player.Index > 39)
                     {
                         player.Index = player.Index - 40;
-                        return true;
                     }
+                    return true;
 
                 }
 

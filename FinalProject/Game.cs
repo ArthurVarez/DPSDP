@@ -8,12 +8,12 @@ namespace FinalProject
         private List<Player> playerList;
         private CircularList<int> board;
         private Die[] dice;
-        private int nbRounds = 10;
+        private int nbRounds = 30;
         private int size = 40;
 
-        public Game()
+        public Game(List<Player> playerList)
         {
-            this.playerList = new List<Player>();
+            this.playerList = playerList;
             SetBoard();
         }
 
@@ -45,7 +45,11 @@ namespace FinalProject
         {
             foreach (Player player in this.playerList)
             {
-                player.PlayDice();
+                int temp = player.Index;
+                player.Play();
+                Console.WriteLine("Player: " + player.Name + " move from :" + temp +
+                    "   to " + player.Index + " and his state is : " + player.Test);
+                
             }
         }
 
