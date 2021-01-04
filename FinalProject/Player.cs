@@ -5,19 +5,21 @@ namespace FinalProject
     {
         private State state;
         private string name;
-        private int index;
-        private string test;
+        private string whatsMyState;
+        private Square index;
+        private Board board;
 
         public string Name { get => name; set => name = value; }
-        public int Index { get => index; set => index = value; }
         public State State { get => state; set => state = value; }
-        public string Test { get => test; set => test = value; }
+        public string WhatsMyState { get => whatsMyState; set => whatsMyState = value; }
+        public Square Index { get => index; set => index = value; }
 
-        public Player(string name)
+        public Player(string name, Board board)
         {
             this.name = name;
-            this.index = 0;
+            this.index = board.Start;
             this.state = new FreeState(this);
+            this.board = board;
         }
         public void Play()
         {

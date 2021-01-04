@@ -5,32 +5,24 @@ namespace FinalProject
 {
     public class Game
     {
-        private List<Player> playerList;
-        private CircularList<int> board;
-        private Die[] dice;
-        private int nbRounds = 30;
-        private int size = 40;
+        private List<Player> playerList=new List<Player>();
+        private Board board;
+        private int nbRounds;
 
-        public Game(List<Player> playerList)
+        public Game(int size,int nbPlayers,int nbRounds)
         {
-            this.playerList = playerList;
-            SetBoard();
+            this.board = new Board(size);
+            this.nbRounds = nbRounds;
+            CreatePlayer(nbPlayers);
         }
 
-        public void SetBoard()
+        public void CreatePlayer(int nb)
         {
-            this.board = new CircularList<int>();
-
-            for (int i = 0; i < this.size; i++)
+            for(int i=0; i<nb;i++)
             {
-                Node<int> index = new Node<int>(i);
-                this.board.AddNode(index);
+                Player player = new Player("" + i, this.board);
+                this.playerList.Add(player);
             }
-        }
-
-        public void AddPlayers(Player player)
-        {
-            this.playerList.Add(player);
         }
 
         public void PlayGame()
@@ -45,10 +37,10 @@ namespace FinalProject
         {
             foreach (Player player in this.playerList)
             {
-                int temp = player.Index;
+                int temp = player.Index.Index;
                 player.Play();
                 Console.WriteLine("Player: " + player.Name + " move from :" + temp +
-                    "   to " + player.Index + " and his state is : " + player.Test);
+                    "   to " + player.Index.Index + " and his state is : " + player.WhatsMyState);
                 
             }
         }

@@ -6,20 +6,20 @@ namespace FinalProject
         private string name;
         private Square nextSquare;
         private int index;
+
+        public Square NextSquare { get => nextSquare; set => nextSquare = value; }
+        public string Name { get => name; set => name = value; }
+        public int Index { get => index; set => index = value; }
+
         public Square(string name, int index)
         {
             this.name = name;
             this.index = index;
         }
-        public void setNextSquare(Square s)
+        public void setNextSquare(Square square)
         {
-            nextSquare = s;
+            this.nextSquare = square;
         }
-        public Square getNextSquare()
-        {
-            return nextSquare;
-        }
-        public string getName() { return name; }
-        public int getIndex() { return index; }
+
     }
 }

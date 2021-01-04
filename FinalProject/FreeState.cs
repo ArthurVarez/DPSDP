@@ -8,20 +8,20 @@ namespace FinalProject
         public FreeState(Player player)
         {
             this.player = player;
-            this.player.Test = "Free";
+            this.player.WhatsMyState = "Free";
         }
         public override void Play(Player player)
         {
             Die die1 = new Die();
             Die die2 = new Die();
-            player.Index += die1.DieValue + die2.DieValue;
-            if (player.Index == 30)
+            int move = die1.DieValue + die2.DieValue;
+            for (int i = 0; i < move; i++)
+            {
+                player.Index = player.Index.NextSquare;
+            }
+            if (player.Index.Index == 30)
             {
                 this.player.State = new JailState(this.player);
-            }
-            else if (player.Index > 39)
-            {
-                player.Index = player.Index - 40;
             }
         }
     }
