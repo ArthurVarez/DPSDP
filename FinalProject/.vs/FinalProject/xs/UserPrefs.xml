@@ -1,6 +1,6 @@
 ﻿<Properties StartupConfiguration="{1E9567E9-EAC4-4F9C-ABB0-F9609F3F6AB0}|Default">
   <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FinalProjectTests/UnitTest1.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercice1/CustomQueue.cs">
     <Files>
       <File FileName="Program.cs" Line="15" Column="1" />
       <File FileName="Game.cs" Line="41" Column="126" />
@@ -18,22 +18,17 @@
       <File FileName="Exercice3/FreeState.cs" Line="24" Column="140" />
       <File FileName="Exercice3/Square.cs" Line="21" Column="93" />
       <File FileName="Exercice3/State.cs" Line="1" Column="1" />
-      <File FileName="FinalProjectTests/UnitTest1.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="FinalProject" expanded="True" />
-            <Node name="FinalProjectTests" expanded="True">
-              <Node name="Dependencies" expanded="True" selected="True" />
-            </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.FinalProjectTests FirstBuild="True" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
