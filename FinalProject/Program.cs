@@ -1,5 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace FinalProject
 {
@@ -38,29 +42,23 @@ namespace FinalProject
 
         static void Exo2()
         {
+            string text = System.IO.File.ReadAllText("text.txt");
+            MapReduce mapReduce = new MapReduce(text);
+            Console.WriteLine(mapReduce);
+
+        }
+        static void Exo3()
+        {
             Console.WriteLine("Welcome to Monopoly Game !");
             Console.WriteLine("Choose how many players do you want for this game :");
             int nbPlayers = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Now, choose how many rounds do you want for this game :");
             int nbRounds = Convert.ToInt32(Console.ReadLine());
-            CollectionPlayer listPlayers = new CollectionPlayer();
-            for (int i = 0; i < nbPlayers; i++)
-            {
-
-                //listPlayers.Players;
-
-            }
             int size = 40;
             Game game = new Game(size, nbPlayers, nbRounds);
 
             game.PlayGame();
-
-            Iterator iterator = listPlayers.CreateIterator();
-            //listPlayers.Next;
-        }
-        static void Exo3()
-        {
-
+            Console.WriteLine("Game end");
         }
     }
 }

@@ -8,26 +8,11 @@ namespace FinalProject
 {
     public class PlayerIterator : Iterator
     {
-        private Player nextPlayer;
-
         public PlayerIterator(CollectionPlayer players)
         {
             this.players = players;
         }
-        public Player NextPlayer
-        {
-            get
-            {
-                if (IsDone())
-                {
-                    return First();
-                }
-                else
-                {
-                    return this.players[players.IndexOf(this.currentPlayer) + 1];
-                }
-            }
-        }
+        
         public override Player First()
         {
             return this.players[0];

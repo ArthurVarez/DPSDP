@@ -5,14 +5,18 @@ namespace FinalProject
 {
     public class Game
     {
-        private List<Player> playerList=new List<Player>();
+
         private Board board;
         private int nbRounds;
+        private CollectionPlayer playerList;
+        private Iterator iterator;
 
         public Game(int size,int nbPlayers,int nbRounds)
         {
             this.board = new Board(size);
             this.nbRounds = nbRounds;
+            this.playerList = new CollectionPlayer();
+            this.iterator = this.playerList.CreateIterator();
             CreatePlayer(nbPlayers);
         }
 
@@ -20,7 +24,7 @@ namespace FinalProject
         {
             for(int i=0; i<nb;i++)
             {
-                Player player = new Player("" + i, this.board);
+                Player player = new Player("" + (i+1), this.board);
                 this.playerList.Add(player);
 
             }
@@ -36,14 +40,13 @@ namespace FinalProject
 
         public void PlayRound()
         {
-            foreach (Player player in this.playerList)
-            {
-                int temp = player.Index.Index;
-                player.Play();
-                Console.WriteLine("Player: " + player.Name + " move from :" + temp +
-                    "   to " + player.Index.Index + " and his state is : " + player.WhatsMyState);
-                
-            }
+            Player playerCurrent = iterator.Current();
+            int temp = playerCurrent.Index.Index;
+            iterator.Current().Play();
+            Console.WriteLine("Player: " + playerCurrent.Name + " move from :" + temp +
+                                "   to " + playerCurrent.Index.Index + " and his state is : " + playerCurrent.WhatsMyState);
+            iterator.Next();                
+            
         }
 
     }
