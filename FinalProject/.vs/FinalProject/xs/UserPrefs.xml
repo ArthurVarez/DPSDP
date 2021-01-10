@@ -1,29 +1,28 @@
 ﻿<Properties StartupConfiguration="{1E9567E9-EAC4-4F9C-ABB0-F9609F3F6AB0}|Default">
   <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercice1/CustomQueue.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
       <File FileName="Program.cs" Line="15" Column="1" />
-      <File FileName="Game.cs" Line="41" Column="126" />
-      <File FileName="CustomQueue.cs" Line="64" Column="89" />
-      <File FileName="Node.cs" Line="21" Column="76" />
-      <File FileName="Exercice2/MapReduce.cs" Line="74" Column="90" />
-      <File FileName="Exercice3/Board.cs" Line="21" Column="1" />
-      <File FileName="Exercice3/PlayerIterator.cs" Line="38" Column="59" />
-      <File FileName="Exercice3/Player.cs" Line="26" Column="68" />
-      <File FileName="Exercice3/JailState.cs" Line="53" Column="26" />
-      <File FileName="Exercice3/Iterator.cs" Line="1" Column="1" />
-      <File FileName="Exercice3/CollectionPlayer.cs" Line="44" Column="126" />
-      <File FileName="Exercice3/Aggregate.cs" Line="1" Column="1" />
-      <File FileName="Exercice3/Die.cs" Line="9" Column="57" />
-      <File FileName="Exercice3/FreeState.cs" Line="24" Column="140" />
-      <File FileName="Exercice3/Square.cs" Line="21" Column="93" />
-      <File FileName="Exercice3/State.cs" Line="1" Column="1" />
+      <File FileName="Exercice2/MapReduce.cs" />
+      <File FileName="Exercice3/Board.cs" />
+      <File FileName="Exercice3/PlayerIterator.cs" />
+      <File FileName="Exercice3/Player.cs" />
+      <File FileName="Exercice3/JailState.cs" />
+      <File FileName="Exercice3/Iterator.cs" />
+      <File FileName="Exercice3/CollectionPlayer.cs" />
+      <File FileName="Exercice3/Aggregate.cs" />
+      <File FileName="Exercice3/Die.cs" />
+      <File FileName="Exercice3/FreeState.cs" />
+      <File FileName="Exercice3/Square.cs" />
+      <File FileName="Exercice3/State.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
-            <Node name="FinalProject" expanded="True" />
+            <Node name="FinalProject" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
           </Node>
         </State>
       </Pad>
