@@ -6,34 +6,34 @@ namespace FinalProject
         private int round;
         private Player player;
 
-        public JailState(Player player)
+        public JailState(Player player) // This is the state for the player when he is in jail
         {
             this.round = 0;
             this.player = player;
             this.player.WhatsMyState = "In Jail";
         }
 
-        public override void Play(Player player)
+        public override void Play(Player player) // Play method calling in Game (PlayRound)
         {
-            if (TryToBeFree(player))
+            if (TryToBeFree(player)) // The Player try to being free 
             {
-                this.player.State = new FreeState(this.player);
+                this.player.State = new FreeState(this.player); // Is the method return true, he is free and his state change to FreeState
             }
         }
         public bool TryToBeFree(Player player)
         {
-            Die die1 = new Die();
-            Die die2 = new Die();
+            Die die1 = new Die(); // Throw first die
+            Die die2 = new Die(); // Throw the second one
 
-            if (die1.DieValue == die2.DieValue)
+            if (die1.DieValue == die2.DieValue) // If the value of the two dice are the same 
             {
-                int move = die1.DieValue + die2.DieValue;
+                int move = die1.DieValue + die2.DieValue; // Move equal the value 
                 for (int i = 0; i < move; i++)
                 {
-                    player.Index = player.Index.NextSquare;
+                    player.Index = player.Index.NextSquare; // Moving on the squares 
                 }
-                Console.WriteLine("move= " + move);
-                return true;
+                Console.WriteLine("die 1 = " + die1.DieValue + " die 2 = " + die2.DieValue); // Display the two values 
+                return true; 
             }
             else
             {

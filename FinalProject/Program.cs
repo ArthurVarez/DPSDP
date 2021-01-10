@@ -12,11 +12,7 @@ namespace FinalProject
         static void Main(string[] args)
         {
             Console.Clear();
-
             Console.WriteLine("---------------------------------------------------------------");
-
-
-
             Console.WriteLine("Exercice 1");
             Exo1();
             Console.WriteLine("Exercice 2");
