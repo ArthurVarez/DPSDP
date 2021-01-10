@@ -1,7 +1,7 @@
 ﻿using System;
 namespace FinalProject
 {
-    public class Square
+    public class Square // Square associate to an index on the board, it acts like a node of a linked list
     {
         private string name;
         private Square nextSquare;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject
 {
-    public abstract class Aggregate
+    public abstract class Aggregate // abstract class for the iterator pattern
     {
         public abstract PlayerIterator CreateIterator();
     }

@@ -3,9 +3,9 @@ namespace FinalProject
 {
     public class Player
     {
-        private State state;
+        private State state; // State of the player (FreeState or JailState)
         private string name;
-        private string whatsMyState;
+        private string whatsMyState; // "Free" or "In Jail"
         private Square index;
         private Board board;
 
@@ -17,11 +17,11 @@ namespace FinalProject
         public Player(string name, Board board)
         {
             this.name = name;
-            this.index = board.Start;
+            this.index = board.Start; // // Initial position of a player
             this.state = new FreeState(this);
             this.board = board;
         }
-        public void Play()
+        public void Play() // Plays the player's turn according to his state
         {
             this.state.Play(this);
         }

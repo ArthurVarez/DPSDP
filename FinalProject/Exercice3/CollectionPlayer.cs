@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace FinalProject
 {
-    public class CollectionPlayer: Aggregate
+    public class CollectionPlayer : Aggregate // Players collection using the Iterator pattern
     {
         private List<Player> listPlayers;
 
@@ -22,7 +22,7 @@ namespace FinalProject
             return new PlayerIterator(this);
         }
 
-        public int Count()
+        public int Count() // Gets players count
         {
             return this.listPlayers.Count;
         }
@@ -41,7 +41,7 @@ namespace FinalProject
             this.listPlayers.RemoveAt(index);
         }
 
-        public Player this[int index]
+        public Player this[int index] // Indexer
         {
             get { return this.listPlayers[index]; }
             set { this.listPlayers.Insert(index, value); }

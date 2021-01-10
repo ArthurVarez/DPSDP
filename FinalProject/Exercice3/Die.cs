@@ -11,10 +11,10 @@ namespace FinalProject
 
         public int DieValue { get => dieValue; set => dieValue = value; }
 
-        public int DiceRoll()
+        public int DiceRoll()// Changes the value of the die into a random number between 1 and 6
         {
             Random random = new Random();
-            return random.Next(0, 6);
+            return random.Next(1, 6);
         }
 
     }

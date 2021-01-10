@@ -1,27 +1,34 @@
 ﻿<Properties StartupConfiguration="{1E9567E9-EAC4-4F9C-ABB0-F9609F3F6AB0}|Default">
   <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercice3/CollectionPlayer.cs">
     <Files>
       <File FileName="Program.cs" Line="15" Column="1" />
-      <File FileName="Exercice2/MapReduce.cs" />
-      <File FileName="Exercice3/Board.cs" />
-      <File FileName="Exercice3/PlayerIterator.cs" />
-      <File FileName="Exercice3/Player.cs" />
-      <File FileName="Exercice3/JailState.cs" />
+      <File FileName="Exercice2/MapReduce.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Board.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/PlayerIterator.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Player.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/JailState.cs" Line="1" Column="1" />
       <File FileName="Exercice3/Iterator.cs" />
-      <File FileName="Exercice3/CollectionPlayer.cs" />
-      <File FileName="Exercice3/Aggregate.cs" />
-      <File FileName="Exercice3/Die.cs" />
-      <File FileName="Exercice3/FreeState.cs" />
-      <File FileName="Exercice3/Square.cs" />
-      <File FileName="Exercice3/State.cs" />
+      <File FileName="Exercice3/CollectionPlayer.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Aggregate.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Die.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/FreeState.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Square.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/State.cs" Line="1" Column="1" />
+      <File FileName="Exercice1/CustomQueue.cs" Line="1" Column="1" />
+      <File FileName="Exercice1/Node.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Game.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="FinalProject" expanded="True">
-              <Node name="Program.cs" selected="True" />
+              <Node name="Exercice1" expanded="True" />
+              <Node name="Exercice2" expanded="True" />
+              <Node name="Exercice3" expanded="True">
+                <Node name="CollectionPlayer.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>

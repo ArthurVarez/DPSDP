@@ -48,32 +48,32 @@ namespace FinalProject
 			});
 		}
 
-		public void Reduce()
+		public void Reduce() 
 		{
-			this.reduce = new ConcurrentDictionary<string, int>();
-			Parallel.ForEach(this.suffled, (pair) =>
+			this.reduce = new ConcurrentDictionary<string, int>(); // Save into a concurrent dictionnary
+			Parallel.ForEach(this.suffled, (pair) => // Iterate on each value in the concurrent dictionnary
 			{
 				int nb = 0;
-				Parallel.ForEach(pair.Value, (value) =>
-				 {
-					 nb += value;
+				Parallel.ForEach(pair.Value, (value) => // For each word in the dictionnary
+				 { 
+					 nb += value; // Add within a int the key.value (thiswords: 1 1 1 --> thiswords: 3)
 				 });
-				this.reduce.TryAdd(pair.Key, nb);
+				this.reduce.TryAdd(pair.Key, nb); // Add these values in the dictionnary
 			});
 		}
 
 
-        public override string ToString()
+        public override string ToString() // To string method
         {
 			string result = "";
-			Parallel.ForEach(this.reduce, (entry) =>
+			Parallel.ForEach(this.reduce, (entry) => // For each entry(word) in the dictionnary
 			{
 				Dictionary<string,int> words= new Dictionary<string, int>();
-				words.Add(entry.Key, entry.Value);
+				words.Add(entry.Key, entry.Value); // Save the word in a new dictionnary
 
-				Parallel.ForEach(words, (pair) =>
+				Parallel.ForEach(words, (pair) => // For each word in the dictionnary 
 				{
-					result += string.Format(pair.Key + " : " + pair.Value + "\n");
+					result += string.Format(pair.Key + " : " + pair.Value + "\n"); // Add the pair.key (word) and pair.Value (occurence)
 				});
 			});
 			return result;

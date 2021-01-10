@@ -19,7 +19,7 @@ namespace FinalProject
             {
                 player.Index = player.Index.NextSquare;
             }
-            if (player.Index.Index == 30)
+            if (player.Index.Index == 30) // If the player arrives on the "Go to jail" square he goes in jail and his state changes.
             {
                 this.player.State = new JailState(this.player);
             }
