@@ -1,9 +1,9 @@
 ﻿using System;
 namespace FinalProject
 {
-    public class CollectionIterator
+    public class PlayerIterator
     {
-        public CollectionIterator()
+        public PlayerIterator()
         {
         }
     }

@@ -1,9 +1,16 @@
 ﻿using System;
+using System.Collections.Generic;
+
 namespace FinalProject
 {
-    public interface Iterator
+    public abstract class Iterator
     {
-        bool hasNext();
-        object next();
+        public PlayerAggregate players;
+        public Player currentPlayer;
+        public abstract Player First();
+        public abstract Player Current();
+        public abstract Player Next();
+        public abstract bool IsDone();
+
     }
 }

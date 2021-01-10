@@ -1,8 +1,10 @@
 ﻿using System;
 namespace FinalProject
 {
-    public interface Aggregate
+    public class Aggregate
     {
-        Iterator createIterator();
+        public Aggregate()
+        {
+        }
     }
 }
