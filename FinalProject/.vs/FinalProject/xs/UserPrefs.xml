@@ -26,7 +26,7 @@
           <Node name="FinalProject" expanded="True">
             <Node name="FinalProject" expanded="True" />
             <Node name="FinalProjectTests" expanded="True">
-              <Node name="UnitTest1.cs" selected="True" />
+              <Node name="Dependencies" expanded="True" selected="True" />
             </Node>
           </Node>
         </State>
