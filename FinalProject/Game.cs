@@ -22,6 +22,7 @@ namespace FinalProject
             {
                 Player player = new Player("" + i, this.board);
                 this.playerList.Add(player);
+
             }
         }
 

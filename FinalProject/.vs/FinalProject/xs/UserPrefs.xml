@@ -1,20 +1,19 @@
 ﻿<Properties StartupConfiguration="{1E9567E9-EAC4-4F9C-ABB0-F9609F3F6AB0}|Default">
   <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="PlayerIterator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
     <Files>
-      <File FileName="Iterator.cs" Line="6" Column="31" />
-      <File FileName="Player.cs" Line="1" Column="1" />
-      <File FileName="PlayerIterator.cs" Line="3" Column="1" />
-      <File FileName="PlayerAggregate.cs" Line="48" Column="1" />
-      <File FileName="Aggregate.cs" Line="6" Column="39" />
-      <File FileName="Program.cs" Line="3" Column="1" />
+      <File FileName="Aggregate.cs" />
+      <File FileName="Program.cs" Line="34" Column="63" />
+      <File FileName="Game.cs" />
+      <File FileName="CustomQueue.cs" Line="37" Column="27" />
+      <File FileName="Node.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="FinalProject" expanded="True">
             <Node name="FinalProject" expanded="True">
-              <Node name="PlayerIterator.cs" selected="True" />
+              <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
         </State>
