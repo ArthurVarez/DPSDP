@@ -1,14 +1,17 @@
 ﻿<Properties StartupConfiguration="{1E9567E9-EAC4-4F9C-ABB0-F9609F3F6AB0}|Default">
   <MonoDevelop.Ide.ItemProperties.FinalProject PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercice3/JailState.cs">
     <Files>
       <File FileName="Aggregate.cs" />
-      <File FileName="Program.cs" Line="27" Column="10" />
+      <File FileName="Program.cs" Line="46" Column="55" />
       <File FileName="Game.cs" />
       <File FileName="CustomQueue.cs" Line="13" Column="1" />
       <File FileName="Node.cs" Line="1" Column="1" />
-      <File FileName="Exercice2/MapReduce.cs" Line="8" Column="23" />
+      <File FileName="Exercice2/MapReduce.cs" Line="36" Column="1" />
       <File FileName="Exercice3/Board.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/PlayerIterator.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/Player.cs" Line="1" Column="1" />
+      <File FileName="Exercice3/JailState.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -17,7 +20,9 @@
             <Node name="FinalProject" expanded="True">
               <Node name="Exercice1" expanded="True" />
               <Node name="Exercice2" expanded="True" />
-              <Node name="Program.cs" selected="True" />
+              <Node name="Exercice3" expanded="True">
+                <Node name="Iterator.cs" selected="True" />
+              </Node>
             </Node>
           </Node>
         </State>
